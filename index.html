@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Liminimal</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --card: #faf7f0;
+    --ink: #1a1a1a;
+    --muted: #5c5c5c;
+    --line: #e4ddd0;
+    --accent: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0d0d;
+      --card: #161616;
+      --ink: #f0e2c8;
+      --muted: #9a9a9a;
+      --line: #2a2a2a;
+      --accent: #f0e2c8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 22px 80px; }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.4rem;
+    font-style: italic;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+  }
+  .updated { color: var(--muted); font-size: 0.95rem; margin: 0 0 32px; }
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    margin: 44px 0 12px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1.08rem; margin: 28px 0 8px; }
+  p, li { color: var(--ink); }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  .lead {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 0 0 8px;
+  }
+  .lead ul { margin: 10px 0 0; padding-left: 20px; }
+  .lead li { margin: 6px 0; }
+  .table-scroll { overflow-x: auto; margin: 16px 0; }
+  table { border-collapse: collapse; width: 100%; min-width: 460px; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; }
+  td:last-child, th:last-child { white-space: nowrap; }
+  code {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 1px 6px;
+    font-size: 0.9em;
+  }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Liminimal · Last updated 21 July 2026</p>
+
+  <div class="lead">
+    <p style="margin-top:0"><strong>The short version.</strong> Liminimal is a
+    minimalist launcher built to help you use your phone less. It is designed to
+    collect as little as possible about you.</p>
+    <ul>
+      <li><strong>We run no servers and receive no data from the app.</strong>
+        There is no account to create and nothing is sent to the developer.</li>
+      <li><strong>No advertising, no analytics, no trackers, no crash-reporting.</strong></li>
+      <li><strong>Almost everything stays on your device.</strong> Data leaves
+        your phone in only three cases, each under your control: weather, optional
+        backup, and optional web search.</li>
+    </ul>
+  </div>
+
+  <h2>Who is responsible</h2>
+  <p>This app is developed by an independent developer ("we", "the developer").</p>
+  <p>
+    <strong>Developer:</strong> Paolo Pispisa<br>
+    <strong>Contact:</strong> <a href="mailto:developerkenshi@gmail.com">developerkenshi@gmail.com</a>
+  </p>
+  <p>For questions about this policy or your data, write to the address above.</p>
+
+  <h2>Data the app uses on your device</h2>
+  <p>To work as a launcher, Liminimal reads some information from your phone. Unless
+  listed in the next section, <strong>this information never leaves your
+  device</strong>: it is not transmitted, not stored by us, and not shared with
+  anyone.</p>
+
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr><th>What</th><th>Why</th><th>Leaves the device?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>App usage</strong> (screen time per app)</td><td>Powers "Limits" and usage stats. Requires the "Usage access" permission.</td><td>No</td></tr>
+      <tr><td><strong>Your contacts</strong></td><td>So search can find a person, not just an app. Requires the "Contacts" permission.</td><td>No</td></tr>
+      <tr><td><strong>List of installed apps</strong></td><td>To show and open your apps.</td><td>No</td></tr>
+      <tr><td><strong>Signal strength / phone state</strong></td><td>To draw the signal bars in the launcher's status bar. We do <strong>not</strong> read calls, phone numbers, or call logs.</td><td>No</td></tr>
+      <tr><td><strong>Your settings</strong> (slots, folders, widgets, limits, appearance, notes)</td><td>To remember how you set up your launcher. Stored locally.</td><td>Only if you enable backup</td></tr>
+      <tr><td><strong>A single silent notification</strong></td><td>Keeps limit-checking alive while you use other apps. Silent and permanent, never promotional.</td><td>No</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>You can deny any of these permissions. The app keeps working; only the
+  feature that depends on that permission is turned off.</p>
+
+  <h2>When data leaves your device</h2>
+  <p>There are exactly three cases, and you decide whether they happen.</p>
+
+  <h3>1. Weather (OpenMeteo)</h3>
+  <p>If you use the weather widget or weather theme, the app sends an
+  <strong>approximate location</strong> (or a city name you choose) to the weather
+  service <strong>OpenMeteo</strong> to get the forecast for your area. The
+  coordinates are sent only to retrieve the weather; we do not store them, and
+  nothing else is sent. If you deny the Location permission, you can still pick
+  your city by hand.</p>
+  <p>OpenMeteo's privacy policy: <a href="https://open-meteo.com/en/terms">https://open-meteo.com/en/terms</a></p>
+
+  <h3>2. Optional backup (Google Drive)</h3>
+  <p>If — and only if — you choose to back up your setup, the app saves your
+  launcher settings (slots, folders, widgets, limits and appearance preferences)
+  to <strong>your own Google Drive</strong>, in a hidden folder reserved for the
+  app (<code>appDataFolder</code>).</p>
+  <ul>
+    <li>The backup lives in <strong>your</strong> Google account, not ours. We never see it.</li>
+    <li>It is stored in a private area that other apps and people cannot browse.</li>
+    <li>Signing in uses Google Sign-In; we request only the minimum scope needed to read and write that one hidden folder (<code>drive.appdata</code>).</li>
+    <li>You can delete the backup at any time by disconnecting the account in the app, or from your Google account's data controls.</li>
+  </ul>
+  <p>Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+
+  <h3>3. Web search (DuckDuckGo)</h3>
+  <p>When you use quick search and choose to search the web, your typed query is
+  opened in your browser as a <strong>DuckDuckGo</strong> search. This only
+  happens when you explicitly ask to search the web. If you just search apps and
+  contacts, nothing is sent anywhere.</p>
+  <p>DuckDuckGo's privacy policy: <a href="https://duckduckgo.com/privacy">https://duckduckgo.com/privacy</a></p>
+
+  <h2>What we never do</h2>
+  <ul>
+    <li>We never sell or share your data for advertising.</li>
+    <li>We show no ads and embed no advertising SDKs.</li>
+    <li>We use no analytics, tracking, profiling, or crash-reporting tools.</li>
+    <li>We have no user accounts and no server that stores your data.</li>
+  </ul>
+
+  <h2>Keeping and deleting your data</h2>
+  <p>Because your data lives on your device:</p>
+  <ul>
+    <li><strong>Uninstalling the app</strong> removes the settings stored on your phone.</li>
+    <li>To remove a <strong>Google Drive backup</strong>, disconnect the account in the app or delete the app's data from your Google account.</li>
+    <li>App usage data and contacts are provided by Android and are not copied anywhere by us; revoking the relevant permission stops the app from reading them.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Liminimal is not directed at children and does not knowingly collect any data
+  about them. Since the app collects nothing on our side, it holds no such data.</p>
+
+  <h2>Your rights</h2>
+  <p>Depending on where you live (for example, under the EU/UK GDPR), you have
+  rights over your personal data, including access, correction, and deletion.
+  Because we hold <strong>no</strong> data about you on any server, most of these
+  rights you exercise directly on your device (through Android's permission and
+  app settings) and, for backups, through your own Google account. If you have any
+  question, contact us at the address above.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we will update the "Last updated" date at the top
+  and, for significant changes, note them in the app's release notes.</p>
+
+  <footer>Liminimal — a launcher that doesn't try to keep you around.</footer>
+
+</div>
+</body>
+</html>
